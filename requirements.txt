@@ -1,0 +1,22 @@
+# Core Libraries
+streamlit
+python-dotenv
+
+# LangChain and NLP
+langchain
+langchain-community
+langchain-groq
+langchain_huggingface
+
+# Embeddings and Vector Database
+sentence-transformers
+faiss-cpu
+huggingface_hub
+
+# Google Sheets Integration
+gspread
+oauth2client
+
+# Data Ingestion and Preprocessing
+gdown
+pypdf
