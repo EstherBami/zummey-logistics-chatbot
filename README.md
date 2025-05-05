@@ -40,6 +40,8 @@ This script contains the Streamlit app and chatbot logic. It integrates with Goo
    ```bash
    pip install -r requirements.txt
    ```
+3. In **`data_ingestion.py`**, replace the url with your Google drive url
+4. Create a new Google Sheet. Input the spreadsheet ID into the field under Google Sheet Setup in **`chatbot.py`** 
 
 #### **Environment Variables**
 Create a `.env` file with the following variables:

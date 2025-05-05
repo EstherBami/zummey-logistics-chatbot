@@ -56,7 +56,7 @@ def final_result(query):
 load_dotenv(dotenv_path=".env")
 SCOPE = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
 CREDS_FILE = os.getenv("CREDS_FILE_PATH") # Get JSON key file path from environment variable
-SPREADSHEET_ID = "1GI2nOijb1yHrZHlVbtZQK922CcxkttZztbxnRkd5DM0" # Google Sheet ID
+SPREADSHEET_ID = "" # Google Sheet ID
 SHEET_NAME = "Order_Details" # Name of the work sheet
 
 def save_order_to_sheets(order_details):

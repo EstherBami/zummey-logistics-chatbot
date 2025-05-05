@@ -2,7 +2,7 @@ import gdown
 import os
 
 # Ingest data from Google Drive
-url = "https://drive.google.com/uc?id=1goWnfb4nyjmnhOaNjffcAeJWAKOsmL74"
+url = "https://drive.google.com/uc?id=" # Replace with your Google Drive ID
 output = "Logistics data.pdf"  # The local filename
 
 # Folder where the file would be saved
